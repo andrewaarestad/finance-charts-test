@@ -5,8 +5,8 @@ import StockChart from "./StockChart";
 function App() {
   return (
     <div className="App">
-      <h2>react-finance-charts</h2>
-      <p>Sample app for <a href="https://github.com/react-financial/react-financial-charts">react-finance-charts</a></p>
+      <h2>react-financial-chartss</h2>
+      <p>Sample app for <a href="https://github.com/react-financial/react-financial-charts">react-financial-chartss</a></p>
       <div className='chart'>
         <StockChart/>
 
