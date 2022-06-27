@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import StockChart from "./StockChart";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>react-finance-charts</h2>
+      <p>Sample app for <a href="https://github.com/react-financial/react-financial-charts">react-finance-charts</a></p>
+      <div className='chart'>
+        <StockChart/>
+
+      </div>
     </div>
   );
 }
